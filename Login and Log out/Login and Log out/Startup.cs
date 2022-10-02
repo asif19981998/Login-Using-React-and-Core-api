@@ -32,7 +32,7 @@ namespace Login_and_Log_out
             services.AddCors();
              services.AddDbContext<Models.UserDbContext>(opt =>
             opt.UseSqlServer(Configuration.GetConnectionString("AppConnectionString")));
-
+           
 
             services.AddControllers();
             services.AddScoped<IUserRepository, UserRepository>();
@@ -54,13 +54,14 @@ namespace Login_and_Log_out
             app.UseRouting();
             app.UseCors(options =>
             {
+                
                 options.WithOrigins(new[]{ "http://localhost:3000"});
-                options.AllowAnyHeader();
+               
                 options.AllowAnyHeader();
                 options.AllowCredentials();
             });
 
-            app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

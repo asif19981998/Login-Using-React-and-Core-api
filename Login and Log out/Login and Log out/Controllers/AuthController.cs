@@ -30,8 +30,8 @@ namespace Login_and_Log_out.Controllers
             {
                 Name = dto.Name,
                 Email = dto.Email,
-                Password = BCrypt.Net.BCrypt.HashPassword(dto.Password)
-                
+                //Password = BCrypt.Net.BCrypt.HashPassword(dto.Password)
+                Password = dto.Password
             };
             _repository.Create(user);
             return Ok("Success");

@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Login_and_Log_out
+build_property.ProjectDir = E:\Authentication and Authorization\Asif is Here for You\Login Using React and Api\Login and Log out\Login and Log out\

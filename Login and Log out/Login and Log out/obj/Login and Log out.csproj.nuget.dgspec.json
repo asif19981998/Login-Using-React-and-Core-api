@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Authentication and Authorization\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj": {}
+    "E:\\Authentication and Authorization\\Asif is Here for You\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj": {}
   },
   "projects": {
-    "E:\\Authentication and Authorization\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj": {
+    "E:\\Authentication and Authorization\\Asif is Here for You\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Authentication and Authorization\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj",
+        "projectUniqueName": "E:\\Authentication and Authorization\\Asif is Here for You\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj",
         "projectName": "Login and Log out",
-        "projectPath": "E:\\Authentication and Authorization\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj",
+        "projectPath": "E:\\Authentication and Authorization\\Asif is Here for You\\Login Using React and Api\\Login and Log out\\Login and Log out\\Login and Log out.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Authentication and Authorization\\Login Using React and Api\\Login and Log out\\Login and Log out\\obj\\",
+        "outputPath": "E:\\Authentication and Authorization\\Asif is Here for You\\Login Using React and Api\\Login and Log out\\Login and Log out\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -95,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

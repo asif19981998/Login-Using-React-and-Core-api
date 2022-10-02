@@ -17,7 +17,7 @@ namespace Login_and_Log_out.Data
         public User Create(User user)
         {
             _db.Users.Add(user);
-           user.Id = _db.SaveChanges();
+           @user.Id = _db.SaveChanges();
             return user;
         }
 
